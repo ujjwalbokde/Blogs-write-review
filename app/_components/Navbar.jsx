@@ -26,7 +26,7 @@ export default function Navbar() {
             Blogs
           </a>
           <a href="/addblog" className="hover:text-gray-300">
-            Create Blog
+            Create a Blog
           </a>
         </div>
 
@@ -49,11 +49,11 @@ export default function Navbar() {
         <a href="/about" className="block py-2 px-4 text-center hover:bg-gray-700">
           About
         </a>
-        <a href="/blog" className="block py-2 px-4 text-center hover:bg-gray-700">
-          Blog
+        <a href="/blogs" className="block py-2 px-4 text-center hover:bg-gray-700">
+          Blogs
         </a>
-        <a href="/contact" className="block py-2 px-4 text-center hover:bg-gray-700">
-          Contact
+        <a href="/addblog" className="block py-2 px-4 text-center hover:bg-gray-700">
+          Create a Blog
         </a>
       </div>
     </nav>

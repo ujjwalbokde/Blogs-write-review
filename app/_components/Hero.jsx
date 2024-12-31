@@ -5,7 +5,7 @@ export default function Hero() {
       {/* Hero Section */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url(/path-to-your-image.jpg)" }}
+        style={{ backgroundImage: "url(/hero.avif)" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
       </div>

@@ -25,7 +25,7 @@ export default function Testimonials() {
         <h2 className="text-4xl font-semibold text-center text-gray-900 mb-8">What Our Users Are Saying</h2>
         <div className="space-y-8">
           {testimonials.map(testimonial => (
-            <div key={testimonial.id} className="bg-secondary p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200">
+            <div key={testimonial.id} className="bg-card-bg p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200">
               <p className="text-lg text-gray-600 mb-4">"{testimonial.message}"</p>
               <p className="font-semibold text-gray-900">{testimonial.name}</p>
               <p className="text-sm text-gray-500">{testimonial.position}</p>
