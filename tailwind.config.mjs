@@ -8,10 +8,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#FFFFFF", // White background
+        foreground: "#171717", // Dark text color for contrast
+        primary: "#079391", // Tomato Red accent color (updated)
+        secondary: "#FFCC99", // Light Peach accent
+        "card-bg": "#FFF3E0", // Light Beige for cards
+        "border-light": "#F2E2D2", // Light Peach for borders
+        shadow: "rgba(0, 0, 0, 0.1)", // Soft shadow
+        heading: "#8B0000", // Dark Red for headings
       },
     },
   },
+  darkMode: 'media', // Enable dark mode based on system preferences
   plugins: [],
 };

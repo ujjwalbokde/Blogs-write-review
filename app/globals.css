@@ -2,17 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Light Mode Colors */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; /* Light background */
+  --foreground: #171717; /* Dark text */
+  --primary: #4CAF50; /* Primary accent (Green) */
+  --secondary: #FF5722; /* Secondary accent (Orange) */
+  --card-bg: #F5F5F5; /* Light gray background for cards */
+  --border-light: #E0E0E0; /* Light gray border */
+  --shadow: rgba(0, 0, 0, 0.1); /* Light shadow */
+  --heading: #2C3E50; /* Heading color (dark blue) */
+  --bg-dark: #121212; /* Dark background */
+  --text-darkmode: #EAEAEA; /* Light text color for dark mode */
+  --darkmode-btn: #2E7D32; /* Button accent for dark mode */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+
 
 body {
   color: var(--foreground);
